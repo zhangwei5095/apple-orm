@@ -6,14 +6,11 @@
 	<parent>
 		<artifactId>apple-orm</artifactId>
 		<groupId>com.appleframework.orm</groupId>
-		<version>0.1.1.RELEASE</version>
+		<version>0.1.4.RELEASE</version>
 	</parent>
 	<artifactId>apple-orm-hibernate</artifactId>
 	<name>apple-orm-hibernate</name>
 	<url>http://mvnrepo.appleframework.com</url>
-	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-	</properties>
 
 	<dependencies>
 		
@@ -51,6 +48,10 @@
 		<dependency>
 			<groupId>c3p0</groupId>
 			<artifactId>c3p0</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>druid</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>mysql</groupId>
